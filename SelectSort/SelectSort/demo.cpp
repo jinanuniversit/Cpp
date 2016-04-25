@@ -4,12 +4,12 @@ void SelectSort(int *arr, int n);
 int main()
 {
 	int a[] = { 0,2,4,6,8,1,3,5,7,9 };
-	cout << "ÅÅÐòÇ°£º" ;
+	cout << "æŽ’åºå‰" ;
 	for (int m = 0; m < 10; m++)
 		cout << a[m] << " ";
 	SelectSort(a, 10);
 	cout << endl;
-	cout << "ÅÅÐòºó£º";
+	cout << "æŽ’åºåŽ";
 		for (int k = 0; k < 10; k++)
 			cout << a[k] << " " ;
 		cout << endl;
